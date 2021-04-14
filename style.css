@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@300;600;700;900&display=swap");
+
+body {
+  background-color: cornsilk;
+  margin: 0;
+  border: 0;
+  font-family: "Montserrat";
+}
+
+#calc-head {
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+.calc {
+  text-align: center;
+  margin: 35px auto;
+  width: 150px;
+  height: 250px;
+  border: 3px solid;
+  border-color: black;
+  border-radius: 1em;
+}
+
+.row1 {
+  padding: 5px;
+}
+
+.row2 {
+  padding: 5px;
+}
+
+.row3 {
+  padding: 5px;
+}
+
+.row4 {
+  padding: 5px;
+}
+
+.row5 {
+  padding: 8px;
+}
