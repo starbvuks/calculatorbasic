@@ -133,7 +133,6 @@ equal.addEventListener("click", function () {
     }
     counter.innerText = sum;
 }) 
-
 clear.addEventListener("click", function () {
     counter.innerText = 0;
 })
