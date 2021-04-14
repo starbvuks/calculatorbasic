@@ -109,18 +109,18 @@ add.addEventListener("click", function () {
     if (val == 0) {
         val = 0
     } else {
-        val += '+'
+        operator = '+'
     }
-    counter.innerText = val;
+    counter.innerText += operator;
 })
 sub.addEventListener("click", function () {
     let val = counter.innerText;
     if (val == 0) {
         val = 0
     } else {
-        val += '-'
+        operator = '-'
     }
-    counter.innerText = val;
+    counter.innerText += operator;
 })
 
 equal.addEventListener("click", function () {
@@ -128,10 +128,9 @@ equal.addEventListener("click", function () {
     if (val == 0) {
         val = 0
     } else {
-        val = parseInt(val)
-        sum = eval(val+val)
+        console.log(eval(val));
     }
-    counter.innerText = sum;
+    counter.innerText = eval(val);
 }) 
 clear.addEventListener("click", function () {
     counter.innerText = 0;
