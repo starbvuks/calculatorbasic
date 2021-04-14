@@ -1,5 +1,3 @@
 # calculatorbasic
 
-#### Current Bug: Addition adds integer before '+' to itself instead of both.
-
-##### TO Impliment: Subtraction
+# Basic Web App that makes simple calculations so you don't have to.
